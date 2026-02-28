@@ -27,3 +27,11 @@ python -m pip install -r requirements-prework.txt
 2. Complete the work
 3. Push the branch and open a PR from your branch to `main`
 4. Submit the PR URL in TalentLMS
+
+## When to use each 
+i will choose the python script when the code be run by pytest or imported by another module 
+In addition, I prefer to choose each one based on its specific use case:
+
+I use Python scripts when I want the code to run automatically on a server or computer without needing to open an interface and click "run." I also use them for large-scale projects with many files, as scripts are faster and more efficient to execute.
+
+On the other hand, I use Jupyter Notebooks to make visuallization data analysis and to do explanations also when I want to experiment with code, test individual parts, and see the results immediately. Once I’m sure the code is working correctly, I transfer it to a .py file to make it official and ready to be used by anyone, including the Autograder.
